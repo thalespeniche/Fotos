@@ -1,4 +1,40 @@
-# Fotos
-Site Simples com Fotos e Links,
-Baixe os arquivos e depois abra  apenas o ' fotos.html '
-:)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="fotos.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+  <title>Fotos</title>
+</head>
+<body>
+  <div class="logo">
+    <div class="text">
+      & | EloisaThales
+      <div class="imagem">
+        <a href="https://www.instagram.com/"><img src="img/logo.insta.png" width="30px"></a>
+        <a href="https://www.facebook.com/"><img src="img/logo.face.png" width="30px"></a> 
+        <a href="https://www.youtube.com/"><img src="img/logo.you.png" width="30px"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <a href="img/Tm. E+T-152.jpg" target="_blank"><img class="f" src="img/Tm. E+T-152.jpg" width="900px" /></a>
+        </li>
+        <li>
+          <a href="img/Tm. E+T-196.jpg" target="_blank"><img class="f" src="img/Tm. E+T-196.jpg" width="900px"/></a>
+        </li>
+        <li>
+          <a href="img/Tm. E+T-22.jpg" target="_blank"><img class="f" src="img/Tm. E+T-22.jpg" width="900px"/></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer">
+      Copyright@2020 Thales Peniche
+    </div>
+</body>
+</html>
